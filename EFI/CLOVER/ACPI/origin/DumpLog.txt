@@ -1,0 +1,184 @@
+36:941  14:589  Found BIOS RSDP at FCD30
+36:941  0:000  Printing ACPI tables from RSDP FCD30 ...
+36:941  0:000   FCD30: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+36:941  0:000    (Xsdt: 79B3D0A8, Rsdt: 79B3D028)
+36:941  0:000    79B3D0A8: 'XSDT', 'NUC8i7BE', Rev: 1, Len: 212
+36:941  0:000    79B3D028: 'RSDT', 'NUC8i7BE', Rev: 1, Len: 124
+36:941  0:000    Tables in Xsdt: 22
+36:941  0:000    0. 79B7BBC0: 'FACP', 'NUC8i7BE', Rev: 6, Len: 276
+36:941  0:000        (Dsdt: 79B3D210, Facs: 7A011080, XDsdt: 79B3D210, XFacs: 0)
+36:941  0:000        79B3D210: 'DSDT', 'NUC8i7BE', Rev: 2, Len: 256427
+36:945  0:003        7A011080: 'FACS', Ver: 2, Len: 64
+36:945  0:000    1. 79B7BCD8: 'APIC', 'NUC8i7BE', Rev: 4, Len: 188
+36:945  0:000    2. 79B7BD98: 'FPDT', 'NUC8i7BE', Rev: 1, Len: 68
+36:945  0:000    3. 79B7BDE0: 'FIDT', 'NUC8i7BE', Rev: 1, Len: 156
+36:945  0:000    4. 79B7BE80: 'MCFG', 'NUC8i7BE', Rev: 1, Len: 60
+36:945  0:000    5. 79B7BEC0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 6940
+36:945  0:000    6. 79B7D9E0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 12742
+36:945  0:000    7. 79B80BA8: 'HPET', 'NUC8i7BE', Rev: 1, Len: 56
+36:945  0:000    8. 79B80BE0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 4014
+36:945  0:000    9. 79B81B90: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 12360
+36:945  0:000    10. 79B84BD8: 'UEFI', 'NUC8i7BE', Rev: 1, Len: 66
+36:945  0:000    11. 79B84C20: 'LPIT', 'NUC8i7BE', Rev: 1, Len: 148
+36:945  0:000    12. 79B84CB8: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 10206
+36:945  0:000    13. 79B87498: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 2232
+36:945  0:000    14. 79B87D50: 'DBGP', 'NUC8i7BE', Rev: 1, Len: 52
+36:945  0:000    15. 79B87D88: 'DBG2', 'NUC8i7BE', Rev: 0, Len: 84
+36:945  0:000    16. 79B87DE0: 'DMAR', 'NUC8i7BE', Rev: 1, Len: 168
+36:945  0:000    17. 79B87E88: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 324
+36:945  0:000    18. 79B87FD0: 'NHLT', 'NUC8i7BE', Rev: 0, Len: 45
+36:945  0:000    19. 79B88000: 'BGRT', 'NUC8i7BE', Rev: 1, Len: 56
+36:945  0:000    20. 79B88038: 'TPM2', 'NUC8i7BE', Rev: 4, Len: 52
+36:945  0:000    21. 79B88070: 'WSMT', 'NUC8i7BE', Rev: 1, Len: 40
+36:945  0:000    Tables in Rsdt: 22
+36:945  0:000    0. 79B3D188: 'FACP', 'NUC8i7BE', Rev: 2, Len: 132
+36:945  0:000        (Dsdt: 79B3D210, Facs: 7A011040)
+36:945  0:000        79B3D210: 'DSDT', 'NUC8i7BE', Rev: 2, Len: 256427
+36:949  0:003        7A011040: 'FACS', Ver: 0, Len: 64
+36:949  0:000    1. 79B7BCD8: 'APIC', 'NUC8i7BE', Rev: 4, Len: 188
+36:949  0:000    2. 79B7BD98: 'FPDT', 'NUC8i7BE', Rev: 1, Len: 68
+36:949  0:000    3. 79B7BDE0: 'FIDT', 'NUC8i7BE', Rev: 1, Len: 156
+36:949  0:000    4. 79B7BE80: 'MCFG', 'NUC8i7BE', Rev: 1, Len: 60
+36:949  0:000    5. 79B7BEC0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 6940
+36:949  0:000    6. 79B7D9E0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 12742
+36:949  0:000    7. 79B80BA8: 'HPET', 'NUC8i7BE', Rev: 1, Len: 56
+36:949  0:000    8. 79B80BE0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 4014
+36:949  0:000    9. 79B81B90: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 12360
+36:949  0:000    10. 79B84BD8: 'UEFI', 'NUC8i7BE', Rev: 1, Len: 66
+36:949  0:000    11. 79B84C20: 'LPIT', 'NUC8i7BE', Rev: 1, Len: 148
+36:949  0:000    12. 79B84CB8: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 10206
+36:949  0:000    13. 79B87498: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 2232
+36:949  0:000    14. 79B87D50: 'DBGP', 'NUC8i7BE', Rev: 1, Len: 52
+36:949  0:000    15. 79B87D88: 'DBG2', 'NUC8i7BE', Rev: 0, Len: 84
+36:949  0:000    16. 79B87DE0: 'DMAR', 'NUC8i7BE', Rev: 1, Len: 168
+36:949  0:000    17. 79B87E88: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 324
+36:949  0:000    18. 79B87FD0: 'NHLT', 'NUC8i7BE', Rev: 0, Len: 45
+36:949  0:000    19. 79B88000: 'BGRT', 'NUC8i7BE', Rev: 1, Len: 56
+36:949  0:000    20. 79B88038: 'TPM2', 'NUC8i7BE', Rev: 4, Len: 52
+36:949  0:000    21. 79B88070: 'WSMT', 'NUC8i7BE', Rev: 1, Len: 40
+36:949  0:000  Found UEFI Acpi 2.0 RSDP at 79B3D000
+36:949  0:000  Saving ACPI tables from RSDP 79B3D000 to EFI\CLOVER\ACPI\origin ...
+36:949  0:000   79B3D000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+36:979  0:029    (Xsdt: 79B3D0A8, Rsdt: 79B3D028)
+36:979  0:000    79B3D0A8: 'XSDT', 'NUC8i7BE', Rev: 1, Len: 212 -> XSDT.aml
+37:007  0:028    79B3D028: 'RSDT', 'NUC8i7BE', Rev: 1, Len: 124 -> RSDT.aml
+37:036  0:028    Tables in Xsdt: 22
+37:036  0:000    0. 79B7BBC0: 'FACP', 'NUC8i7BE', Rev: 6, Len: 276 -> FACP.aml
+37:065  0:028        (Dsdt: 79B3D210, Facs: 7A011080, XDsdt: 79B3D210, XFacs: 0)
+37:065  0:000        79B3D210: 'DSDT', 'NUC8i7BE', Rev: 2, Len: 256427 -> DSDT.aml
+37:104  0:038        7A011080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+37:134  0:030    1. 79B7BCD8: 'APIC', 'NUC8i7BE', Rev: 4, Len: 188 -> APIC.aml
+37:162  0:028    2. 79B7BD98: 'FPDT', 'NUC8i7BE', Rev: 1, Len: 68 -> FPDT.aml
+37:192  0:029    3. 79B7BDE0: 'FIDT', 'NUC8i7BE', Rev: 1, Len: 156 -> FIDT.aml
+37:220  0:028    4. 79B7BE80: 'MCFG', 'NUC8i7BE', Rev: 1, Len: 60 -> MCFG.aml
+37:250  0:029    5. 79B7BEC0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 6940 -> SSDT-0-NUC8i7BE.aml (Found hidden SSDT 9 pcs)
+37:283  0:033        * 79B22518: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1574  53 53 44 54 26 06 00 00 02 5A 50 6D 52 65 66 00 Internal length = 1574 -> SSDT-x0_0-Cpu0Ist.aml
+37:317  0:033        * 79AF1018: 'SSDT', 'ApIst', Rev: 2, Len: 1532  53 53 44 54 FC 05 00 00 02 23 50 6D 52 65 66 00 Internal length = 1532 -> SSDT-x0_1-ApIst.aml
+37:348  0:031        * 79AF1698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x0_2-Cpu0Cst.aml
+37:379  0:030        * 79AEF018: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x0_3-ApCst.aml
+37:409  0:030        * 79AF2C18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 283  53 53 44 54 1B 01 00 00 02 61 50 6D 52 65 66 00 Internal length = 283 -> SSDT-x0_4-Cpu0Hwp.aml
+37:445  0:035        * 79AEF418: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E3 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x0_5-ApHwp.aml
+37:474  0:028        * 79AF2198: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 CA 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x0_6-HwpLvt.aml
+37:503  0:029        * 79AF2018: 'SSDT', 'Cpu0Psd', Rev: 2, Len: 244  53 53 44 54 F4 00 00 00 02 37 50 6D 52 65 66 00 Internal length = 244 -> SSDT-x0_7-Cpu0Psd.aml
+37:530  0:027        * 79AF0018: 'SSDT', 'ApPsd', Rev: 2, Len: 2736  53 53 44 54 B0 0A 00 00 02 AB 50 6D 52 65 66 00 Internal length = 2736 -> SSDT-x0_8-ApPsd.aml
+37:559  0:029  
+37:559  0:000    6. 79B7D9E0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 12742 -> SSDT-1-NUC8i7BE.aml
+37:589  0:030    7. 79B80BA8: 'HPET', 'NUC8i7BE', Rev: 1, Len: 56 -> HPET.aml
+37:622  0:032    8. 79B80BE0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 4014 -> SSDT-2-NUC8i7BE.aml
+37:653  0:031    9. 79B81B90: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 12360 -> SSDT-3-NUC8i7BE.aml
+37:682  0:029    10. 79B84BD8: 'UEFI', 'NUC8i7BE', Rev: 1, Len: 66 -> UEFI.aml
+37:712  0:030    11. 79B84C20: 'LPIT', 'NUC8i7BE', Rev: 1, Len: 148 -> LPIT.aml
+37:743  0:030    12. 79B84CB8: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 10206 -> SSDT-4-NUC8i7BE.aml
+37:773  0:030    13. 79B87498: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 2232 -> SSDT-5-NUC8i7BE.aml
+37:802  0:029    14. 79B87D50: 'DBGP', 'NUC8i7BE', Rev: 1, Len: 52 -> DBGP.aml
+37:832  0:029    15. 79B87D88: 'DBG2', 'NUC8i7BE', Rev: 0, Len: 84 -> DBG2.aml
+37:866  0:034    16. 79B87DE0: 'DMAR', 'NUC8i7BE', Rev: 1, Len: 168 -> DMAR.aml
+37:897  0:030    17. 79B87E88: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 324 -> SSDT-6-NUC8i7BE.aml
+37:926  0:029    18. 79B87FD0: 'NHLT', 'NUC8i7BE', Rev: 0, Len: 45 -> NHLT.aml
+37:956  0:029    19. 79B88000: 'BGRT', 'NUC8i7BE', Rev: 1, Len: 56 -> BGRT.aml
+37:985  0:029    20. 79B88038: 'TPM2', 'NUC8i7BE', Rev: 4, Len: 52 -> TPM2.aml
+38:016  0:030    21. 79B88070: 'WSMT', 'NUC8i7BE', Rev: 1, Len: 40 -> WSMT.aml
+38:046  0:030    Tables in Rsdt: 22
+38:046  0:000    0. 79B3D188: 'FACP', 'NUC8i7BE', Rev: 2, Len: 132 -> RSDT-FACP.aml
+38:106  0:059        (Dsdt: 79B3D210, Facs: 7A011040)
+38:106  0:000        79B3D210: 'DSDT', 'NUC8i7BE', Rev: 2, Len: 256427
+38:110  0:003        7A011040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+38:140  0:029    1. 79B7BCD8: 'APIC', 'NUC8i7BE', Rev: 4, Len: 188
+38:140  0:000    2. 79B7BD98: 'FPDT', 'NUC8i7BE', Rev: 1, Len: 68
+38:140  0:000    3. 79B7BDE0: 'FIDT', 'NUC8i7BE', Rev: 1, Len: 156
+38:140  0:000    4. 79B7BE80: 'MCFG', 'NUC8i7BE', Rev: 1, Len: 60
+38:140  0:000    5. 79B7BEC0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 6940
+38:140  0:000    6. 79B7D9E0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 12742
+38:140  0:000    7. 79B80BA8: 'HPET', 'NUC8i7BE', Rev: 1, Len: 56
+38:140  0:000    8. 79B80BE0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 4014
+38:140  0:000    9. 79B81B90: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 12360
+38:140  0:000    10. 79B84BD8: 'UEFI', 'NUC8i7BE', Rev: 1, Len: 66
+38:140  0:000    11. 79B84C20: 'LPIT', 'NUC8i7BE', Rev: 1, Len: 148
+38:140  0:000    12. 79B84CB8: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 10206
+38:140  0:000    13. 79B87498: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 2232
+38:140  0:000    14. 79B87D50: 'DBGP', 'NUC8i7BE', Rev: 1, Len: 52
+38:140  0:000    15. 79B87D88: 'DBG2', 'NUC8i7BE', Rev: 0, Len: 84
+38:140  0:000    16. 79B87DE0: 'DMAR', 'NUC8i7BE', Rev: 1, Len: 168
+38:140  0:000    17. 79B87E88: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 324
+38:140  0:000    18. 79B87FD0: 'NHLT', 'NUC8i7BE', Rev: 0, Len: 45
+38:140  0:000    19. 79B88000: 'BGRT', 'NUC8i7BE', Rev: 1, Len: 56
+38:140  0:000    20. 79B88038: 'TPM2', 'NUC8i7BE', Rev: 4, Len: 52
+38:140  0:000    21. 79B88070: 'WSMT', 'NUC8i7BE', Rev: 1, Len: 40
+38:140  0:000  Found UEFI Acpi 1.0 RSDP at 79B3D000
+38:140  0:000  Printing ACPI tables from RSDP 79B3D000 ...
+38:140  0:000   79B3D000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+38:140  0:000    (Xsdt: 79B3D0A8, Rsdt: 79B3D028)
+38:140  0:000    79B3D0A8: 'XSDT', 'NUC8i7BE', Rev: 1, Len: 212
+38:140  0:000    79B3D028: 'RSDT', 'NUC8i7BE', Rev: 1, Len: 124
+38:140  0:000    Tables in Xsdt: 22
+38:140  0:000    0. 79B7BBC0: 'FACP', 'NUC8i7BE', Rev: 6, Len: 276
+38:140  0:000        (Dsdt: 79B3D210, Facs: 7A011080, XDsdt: 79B3D210, XFacs: 0)
+38:140  0:000        79B3D210: 'DSDT', 'NUC8i7BE', Rev: 2, Len: 256427
+38:144  0:003        7A011080: 'FACS', Ver: 2, Len: 64
+38:144  0:000    1. 79B7BCD8: 'APIC', 'NUC8i7BE', Rev: 4, Len: 188
+38:144  0:000    2. 79B7BD98: 'FPDT', 'NUC8i7BE', Rev: 1, Len: 68
+38:144  0:000    3. 79B7BDE0: 'FIDT', 'NUC8i7BE', Rev: 1, Len: 156
+38:144  0:000    4. 79B7BE80: 'MCFG', 'NUC8i7BE', Rev: 1, Len: 60
+38:144  0:000    5. 79B7BEC0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 6940
+38:144  0:000    6. 79B7D9E0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 12742
+38:144  0:000    7. 79B80BA8: 'HPET', 'NUC8i7BE', Rev: 1, Len: 56
+38:144  0:000    8. 79B80BE0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 4014
+38:144  0:000    9. 79B81B90: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 12360
+38:144  0:000    10. 79B84BD8: 'UEFI', 'NUC8i7BE', Rev: 1, Len: 66
+38:144  0:000    11. 79B84C20: 'LPIT', 'NUC8i7BE', Rev: 1, Len: 148
+38:144  0:000    12. 79B84CB8: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 10206
+38:144  0:000    13. 79B87498: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 2232
+38:144  0:000    14. 79B87D50: 'DBGP', 'NUC8i7BE', Rev: 1, Len: 52
+38:144  0:000    15. 79B87D88: 'DBG2', 'NUC8i7BE', Rev: 0, Len: 84
+38:144  0:000    16. 79B87DE0: 'DMAR', 'NUC8i7BE', Rev: 1, Len: 168
+38:144  0:000    17. 79B87E88: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 324
+38:144  0:000    18. 79B87FD0: 'NHLT', 'NUC8i7BE', Rev: 0, Len: 45
+38:144  0:000    19. 79B88000: 'BGRT', 'NUC8i7BE', Rev: 1, Len: 56
+38:144  0:000    20. 79B88038: 'TPM2', 'NUC8i7BE', Rev: 4, Len: 52
+38:144  0:000    21. 79B88070: 'WSMT', 'NUC8i7BE', Rev: 1, Len: 40
+38:144  0:000    Tables in Rsdt: 22
+38:144  0:000    0. 79B3D188: 'FACP', 'NUC8i7BE', Rev: 2, Len: 132
+38:144  0:000        (Dsdt: 79B3D210, Facs: 7A011040)
+38:144  0:000        79B3D210: 'DSDT', 'NUC8i7BE', Rev: 2, Len: 256427
+38:148  0:003        7A011040: 'FACS', Ver: 0, Len: 64
+38:148  0:000    1. 79B7BCD8: 'APIC', 'NUC8i7BE', Rev: 4, Len: 188
+38:148  0:000    2. 79B7BD98: 'FPDT', 'NUC8i7BE', Rev: 1, Len: 68
+38:148  0:000    3. 79B7BDE0: 'FIDT', 'NUC8i7BE', Rev: 1, Len: 156
+38:148  0:000    4. 79B7BE80: 'MCFG', 'NUC8i7BE', Rev: 1, Len: 60
+38:148  0:000    5. 79B7BEC0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 6940
+38:148  0:000    6. 79B7D9E0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 12742
+38:148  0:000    7. 79B80BA8: 'HPET', 'NUC8i7BE', Rev: 1, Len: 56
+38:148  0:000    8. 79B80BE0: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 4014
+38:148  0:000    9. 79B81B90: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 12360
+38:148  0:000    10. 79B84BD8: 'UEFI', 'NUC8i7BE', Rev: 1, Len: 66
+38:148  0:000    11. 79B84C20: 'LPIT', 'NUC8i7BE', Rev: 1, Len: 148
+38:148  0:000    12. 79B84CB8: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 10206
+38:148  0:000    13. 79B87498: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 2232
+38:148  0:000    14. 79B87D50: 'DBGP', 'NUC8i7BE', Rev: 1, Len: 52
+38:148  0:000    15. 79B87D88: 'DBG2', 'NUC8i7BE', Rev: 0, Len: 84
+38:148  0:000    16. 79B87DE0: 'DMAR', 'NUC8i7BE', Rev: 1, Len: 168
+38:148  0:000    17. 79B87E88: 'SSDT', 'NUC8i7BE', Rev: 2, Len: 324
+38:148  0:000    18. 79B87FD0: 'NHLT', 'NUC8i7BE', Rev: 0, Len: 45
+38:148  0:000    19. 79B88000: 'BGRT', 'NUC8i7BE', Rev: 1, Len: 56
+38:148  0:000    20. 79B88038: 'TPM2', 'NUC8i7BE', Rev: 4, Len: 52
+38:148  0:000    21. 79B88070: 'WSMT', 'NUC8i7BE', Rev: 1, Len: 40

@@ -1,0 +1,277 @@
+0:100  0:100  MemLog inited, TSC freq: 2712397000
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 25.04.2020,  12:40:20 (GMT)
+0:100  0:000  Starting Clover revision: 5108 (master, commit f7254f53e) on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/sergey/src/CloverHackyColor/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,CA9F581A-F1C9-4548-958C-237AE8CC6957,0x28,0x64000) @7532D618
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:101  0:001  Clover : Image base = 0x6AA13000
+0:101  0:000  SimpleTextEx Status=Success
+0:101  0:000  === [ Get Smbios ] ==============================
+0:101  0:000  Type 16 Index = 0
+0:101  0:000  Total Memory Slots Count = 2
+0:101  0:000  Type 17 Index = 0
+0:101  0:000  SmbiosTable.Type17->Speed = 2400MHz
+0:101  0:000  SmbiosTable.Type17->Size = 8192MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = Memory Channel A SODIMM1
+0:101  0:000  SmbiosTable.Type17->Vendor = 859B
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 258EC2E3
+0:101  0:000  SmbiosTable.Type17->PartNumber = CT8G4SFS824A.M8FD   
+0:101  0:000  Type 17 Index = 1
+0:101  0:000  SmbiosTable.Type17->Speed = 2400MHz
+0:101  0:000  SmbiosTable.Type17->Size = 8192MB
+0:101  0:000  SmbiosTable.Type17->Bank/Device = Memory Channel B SODIMM2
+0:101  0:000  SmbiosTable.Type17->Vendor = 859B
+0:101  0:000  SmbiosTable.Type17->SerialNumber = 23B81C1F
+0:101  0:000  SmbiosTable.Type17->PartNumber = CT8G4SFS824A.M8FE   
+0:101  0:000  Boot status=0
+0:101  0:000  Running on: 'NUC8i7BEH' with board 'NUC8BEB'
+0:101  0:000  === [ GetCPUProperties ] ========================
+0:101  0:000  CPU Vendor = 756E6547 Model=806EA
+0:101  0:000   The CPU supported SSE4.1
+0:101  0:000  BrandString = Intel(R) Core(TM) i7-8559U CPU @ 2.70GHz
+0:101  0:000   The CPU supported turbo
+0:101  0:000  MSR 0x35               40008
+0:101  0:000   TSC/CCC Information Leaf:
+0:101  0:000    numerator     : 226
+0:101  0:000    denominator   : 2
+0:101  0:000   Calibrated ARTFrequency: 24003513
+0:101  0:000   Rounded ARTFrequency: 24000000
+0:101  0:000  MSR 0xE2 before patch 1E008008
+0:101  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:101  0:000  MSR 0xCE              0204043B_204043BF1011B00
+0:101  0:000  corrected FLEX_RATIO = 0
+0:101  0:000  MSR 0x1B0             00000000
+0:101  0:000  FSBFrequency = 86 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:101  0:000  MaxDiv/MinDiv: 27.0/4
+0:101  0:000  Turbo: 41/42/45/45
+0:101  0:000  Features: 0x77FAFBBFBFEBFBFF
+0:101  0:000  Threads: 8
+0:101  0:000  Cores: 4
+0:101  0:000  FSB: 100 MHz
+0:101  0:000  CPU: 2300 MHz
+0:101  0:000  TSC: 2300 MHz
+0:101  0:000  PIS: 100 MHz
+0:101  0:000  ExternalClock: 25 MHz
+0:101  0:000  === [ GetDevices ] ==============================
+0:101  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80010100)
+0:101  0:000  PCI (00|00:00.00) : 8086 3ED0 class=060000
+0:101  0:000  PCI (00|00:02.00) : 8086 3EA5 class=030000
+0:101  0:000   - GOP: Provided by device
+0:101  0:000   - GFX: Model=Intel Iris Plus Graphics 655 (Intel)
+0:101  0:000  PCI (00|00:08.00) : 8086 1911 class=088000
+0:101  0:000  PCI (00|00:12.00) : 8086 9DF9 class=118000
+0:101  0:000  PCI (00|00:14.00) : 8086 9DED class=0C0330
+0:102  0:000  PCI (00|00:14.02) : 8086 9DEF class=050000
+0:102  0:000  PCI (00|00:14.03) : 8086 9DF0 class=028000
+0:102  0:000   - WIFI: Vendor=32902Intel
+0:102  0:000  PCI (00|00:16.00) : 8086 9DE0 class=078000
+0:102  0:000  PCI (00|00:17.00) : 8086 9DD3 class=010601
+0:102  0:000  PCI (00|00:1C.00) : 8086 9DB8 class=060400
+0:102  0:000  PCI (00|00:1C.04) : 8086 9DBC class=060400
+0:102  0:000  PCI (00|00:1D.00) : 8086 9DB0 class=060400
+0:102  0:000  PCI (00|00:1D.06) : 8086 9DB6 class=060400
+0:102  0:000  PCI (00|6E:00.00) : 10EC 522A class=FF0000
+0:102  0:000  PCI (00|00:1F.00) : 8086 9D84 class=060100
+0:102  0:000  PCI (00|00:1F.03) : 8086 9DC8 class=040380
+0:102  0:000  PCI (00|00:1F.04) : 8086 9DA3 class=0C0500
+0:102  0:000  PCI (00|00:1F.05) : 8086 9DA4 class=0C8000
+0:102  0:000  PCI (00|00:1F.06) : 8086 15BE class=020000
+0:102  0:000   - LAN: 0 Vendor=Intel
+0:102  0:000  === [ GetDefaultSettings ] ======================
+0:102  0:000  Clover load options size = 0 bytes
+0:107  0:004  CheckOEMPathExists tried EFI\CLOVER\OEM\NUC8i7BEH--00-00-00-00-00-00. Dir not exists
+0:107  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\NUC8BEB\UEFI. Dir not exists
+0:108  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\NUC8i7BEH. Dir not exists
+0:109  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\NUC8i7BEH-2300. Dir not exists
+0:109  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\NUC8BEB. Dir not exists
+0:110  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\NUC8BEB-2300. Dir not exists
+0:110  0:000  set OEMPath by default: EFI\CLOVER
+0:116  0:005  EFI\CLOVER\config.plist loaded: Success
+0:116  0:000  === [ GetListOfThemes ] =========================
+0:117  0:001  - [00]: Clovy
+0:123  0:005  - [01]: BGM
+0:128  0:005  - [02]: cesium
+0:134  0:006  - [03]: random
+0:138  0:003  - [03]: embedded
+0:141  0:003  === [ Found config plists ] =====================
+0:142  0:001  - config.plist
+0:145  0:002  - config - cópia.plist
+0:145  0:000  === [ GetEarlyUserSettings ] ====================
+0:145  0:000  timeout set to 0
+0:145  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:145  0:000  KextsToPatch: 1 requested
+0:145  0:000   - [00]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+0:145  0:000   - patch disabled at config
+0:146  0:000  KernelToPatch: 3 requested
+0:146  0:000   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: data len: 8
+0:146  0:000   - [01]: Disable panic kext logging on 10.13 release kernel (credit vit9696) :: MatchOS: 10.13.x :: data len: 6
+0:146  0:000   - [02]: Disable panic kext logging on 10.14 release kernel (credit vit9696) :: MatchOS: 10.14.x :: data len: 6
+0:146  0:000  Default theme: Clovy
+0:146  0:000  Hiding entries with string Preboot
+0:146  0:000  Hiding entries with string Recovery
+0:146  0:000  === [ LoadDrivers ] =============================
+0:150  0:004  Loading FSInject.efi  status=Success
+0:307  0:156  Loading AppleKeyFeeder.efi  status=Success
+0:462  0:154  Loading AudioDxe.efi  status=Success
+0:618  0:156   - driver needs connecting
+0:618  0:000  Loading VirtualSmc.efi  status=Success
+0:776  0:157  Loading OsxAptioFix3Drv.efi  status=Success
+0:931  0:155  Loading DataHubDxe.efi  status=Success
+1:088  0:156  Loading ApfsDriverLoader.efi  status=Success
+1:243  0:154   - driver needs connecting
+1:243  0:000  Loading HFSPlus.efi  status=Success
+1:400  0:156   - driver needs connecting
+1:400  0:000  Loading AppleGenericInput.efi  status=Success
+1:556  0:156  Loading AppleUiSupport.efi  status=Success
+1:713  0:156  3 drivers needs connecting ...
+1:713  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+1:713  0:000  HFS+ driver loaded
+1:713  0:000  APFS driver loaded
+1:713  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+5:961  4:248  === [ InitScreen ] ==============================
+5:961  0:000  Console modes reported: 7, available modes:
+5:961  0:000   - [01]: 160x53 (current mode)
+5:961  0:000   - [02]: 80x50
+5:961  0:000   - [03]: 100x31
+5:961  0:000   - [06]: 128x40
+5:961  0:000   - [07]: 80x25
+5:961  0:000  SetScreenResolution: 1920x1080 - not found!
+5:961  0:000  SetMaxResolution: found best mode 0: 1280x1024
+5:961  0:000   - already set
+5:961  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,CA9F581A-F1C9-4548-958C-237AE8CC6957,0x28,0x64000)
+5:961  0:000  new SelfHandle=7532D618
+5:963  0:001  === [ GetMacAddress ] ===========================
+5:963  0:000  === [ ScanSPD ] =================================
+5:964  0:000  Scanning SMBus [8086:9DA3], mmio: 0x4AC16004, ioport: 0xEFA0, hostc: 0x11
+5:981  0:017  Slot: 0 Type 26 8192MB 2400MHz Vendor=Crucial Technology PartNo=CT8G4SFS824A.M8FD SerialNo= 2 5 8 E C 2 E 3
+5:998  0:017  Slot: 2 Type 26 8192MB 2400MHz Vendor=Crucial Technology PartNo=CT8G4SFS824A.M8FE SerialNo= 2 3 B 8 1 C 1 F
+5:999  0:000  === [ GetAcpiTablesList ] =======================
+5:999  0:000  Get Acpi Tables List from RSDT:
+5:999  0:000   - [00]: FACP  NUC8i7BE len=132
+5:999  0:000   - [01]: APIC  NUC8i7BE len=188
+5:999  0:000   - [02]: FPDT  NUC8i7BE len=68
+5:999  0:000   - [03]: FIDT  NUC8i7BE len=156
+5:999  0:000   - [04]: MCFG  NUC8i7BE len=60
+5:999  0:000   - [05]: SSDT  NUC8i7BE len=6940
+5:999  0:000   - [06]: SSDT  NUC8i7BE len=12742
+5:999  0:000   - [07]: HPET  NUC8i7BE len=56
+5:999  0:000   - [08]: SSDT  NUC8i7BE len=4014
+5:999  0:000   - [09]: SSDT  NUC8i7BE len=12360
+5:999  0:000   - [10]: UEFI  NUC8i7BE len=66
+5:999  0:000   - [11]: LPIT  NUC8i7BE len=148
+5:999  0:000   - [12]: SSDT  NUC8i7BE len=10206
+5:999  0:000   - [13]: SSDT  NUC8i7BE len=2232
+5:999  0:000   - [14]: DBGP  NUC8i7BE len=52
+5:999  0:000   - [15]: DBG2  NUC8i7BE len=84
+5:999  0:000   - [16]: DMAR  NUC8i7BE len=168
+5:999  0:000   - [17]: SSDT  NUC8i7BE len=324
+5:999  0:000   - [18]: NHLT  NUC8i7BE len=45
+5:999  0:000   - [19]: BGRT  NUC8i7BE len=56
+5:999  0:000   - [20]: TPM2  NUC8i7BE len=52
+5:999  0:000   - [21]: WSMT  NUC8i7BE len=40
+5:999  0:000  Calibrated TSC Frequency = 2712397000 = 2712MHz
+5:999  0:000  === [ GetUserSettings ] =========================
+5:999  0:000  Add 3 devices (kTagTypeDict):
+5:999  0:000   - final DSDT Fix mask=00000000
+5:999  0:000  PatchesDSDT: 6 requested
+5:999  0:000   - [00]: (change _OSI to XOSI) lenToFind: 4, lenToReplace: 4, Target Bridge: 
+5:999  0:000   - [01]: (change H_EC to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: 
+5:999  0:000   - [02]: (change SAT0 to SATA) lenToFind: 4, lenToReplace: 4, Target Bridge: 
+5:999  0:000   - [03]: (change _DSM to XDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: 
+5:999  0:000   - [04]: (change XDCI._STA to XDCI.XSTA) lenToFind: 4, lenToReplace: 4, Target Bridge: XDCI
+5:999  0:000   - [05]: (Fix NUC BIOS DSDT Device(RTC)) lenToFind: 8, lenToReplace: 8, Target Bridge: 
+5:999  0:000  Using ProductName from config: Macmini8,1
+5:999  0:000  Using latest BiosVersion from clover
+5:999  0:000  BiosVersion: MM81.88Z.F000.B00.2003070211
+5:999  0:000  BiosReleaseDate: 03/07/2020
+5:999  0:000  Using latest EfiVersion from clover: 1037.100.355.0.0
+5:999  0:000  Using FirmwareFeatures from config: 0xFD8FF466
+5:999  0:000  Using FirmwareFeaturesMask from config: 0xFFDFFF7F
+5:999  0:000  Board-ID set from config as Mac-7BA5B2DFE22DDD8C
+5:999  0:000  BoardType: 0xA
+5:999  0:000  ChassisType: 0x9
+6:002  0:002  === [ Found DSDT tables ] =======================
+6:663  0:661  === [ ScanVolumes ] =============================
+6:663  0:000  Found 9 volumes with blockIO
+6:663  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)
+6:664  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,CA9F581A-F1C9-4548-958C-237AE8CC6957,0x28,0x64000)
+6:665  0:000          Result of bootcode detection: bootable unknown (legacy)
+6:667  0:002          This is SelfVolume !!
+6:667  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,BF6493D6-215D-44EF-9100-A95838CEF1C0,0x64028,0xDF30B60)
+6:668  0:000          Result of bootcode detection: bootable unknown (legacy)
+6:668  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1D,0x6)\Pci(0x0,0x0)
+6:668  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,BF6493D6-215D-44EF-9100-A95838CEF1C0,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,F88D5DC1F93E9747B934C5662E2FCA6F)
+6:668  0:000          hiding this volume
+6:668  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,BF6493D6-215D-44EF-9100-A95838CEF1C0,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,786D17397E79C9448AD8774A8B0EF337)
+6:668  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,BF6493D6-215D-44EF-9100-A95838CEF1C0,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7BE1BC4AC5E3A349AE94247ACD5636CB)
+6:668  0:000          hiding this volume
+6:668  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,BF6493D6-215D-44EF-9100-A95838CEF1C0,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,52015C9EFB592E419B350B0549FBC97B)
+6:668  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,BF6493D6-215D-44EF-9100-A95838CEF1C0,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A40DBBA1D0F50E4897DCE8C402AEF036)
+6:669  0:000  found 2 handles with audio
+6:669  0:000  No AudioIoDevice stored
+6:669  0:000  no stored audio parameters
+6:669  0:000  Found Audio Device Realtek ALC235 (Headphones) at index 0
+6:669  0:000  Found Audio Device Intel Kaby Lake HDMI (HDMI) at index 1
+6:669  0:000  === [ InitTheme ] ===============================
+6:669  0:000  use daylight theme
+6:701  0:031  Theme view-bounds: w=1366 h=768 units=px
+6:701  0:000  using scale 1.333333
+6:701  0:000  theme contains font-family=RobotoCondensed-Regular
+6:877  0:176  background parsed
+6:877  0:000  Banner position at parse [569,130]
+6:880  0:002  Banner parsed
+6:880  0:000  parsed banner->width=171
+6:882  0:001   icon 9 not parsed take common icons\tool_part
+6:882  0:000   icon 10 not parsed take common icons\tool_rescue
+6:890  0:008   icon 15 not parsed take common icons\vol_firewire
+6:906  0:016  main entry size = 192
+6:907  0:000  icon main size=[192,192]
+6:908  0:000  OSicon os_tiger not parsed
+6:908  0:000  OSicon os_leo not parsed
+6:908  0:000  OSicon os_snow not parsed
+6:910  0:002  OSicon os_cougar not parsed
+6:911  0:000  OSicon os_yos not parsed
+6:920  0:009  OSicon os_freebsd not parsed
+6:922  0:002  OSicon scrollbar_background not parsed
+6:922  0:000  OSicon scrollbar_holder not parsed
+6:922  0:000  parsing theme finish
+6:922  0:000  Using vector theme 'Clovy' (EFI\CLOVER\themes\Clovy)
+6:925  0:002    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+6:925  0:000  output to channel 0 with volume 70, len=126400
+6:925  0:000   sound channels=2 bits=16 freq=8000
+6:928  0:003  sound converted to 48kHz
+6:928  0:000  not found AudioIo to play
+6:928  0:000  free sound
+6:928  0:000  sound play end with status=Not Found
+6:928  0:000  theme inited
+6:928  0:000  Chosen theme Clovy
+6:928  0:000  after NVRAM boot-args=dart=0 -igfxnohdmi -cdfon
+6:928  0:000  === [ Dump SMC keys from NVRAM ] ================
+6:928  0:000  found AppleSMC protocol
+6:951  0:022  === [ ScanLoader ] ==============================
+6:951  0:000  - [01]: 'EFI'
+6:985  0:033          AddLoaderEntry for Volume Name=EFI
+6:985  0:000          skipped because entry is hidden
+6:985  0:000  - [04]: 'Preboot', hidden
+6:985  0:000  - [05]: 'MacOS - Dados'
+6:993  0:007  - [06]: 'Recovery', hidden
+6:993  0:000  - [07]: 'VM'
+6:993  0:000  - [08]: 'MacOS'
+7:019  0:026          AddLoaderEntry for Volume Name=MacOS
+7:026  0:006      Check if volume Is Hibernated:
+7:026  0:000      Check sleep image 'by signature':
+7:029  0:003      using default sleep image name = \private\var\vm\sleepimage
+7:033  0:004      sleepimage not found -> Not Found
+7:033  0:000      hibernated: no - sign
+7:036  0:002  Scanning legacy ...
+7:036  0:000  === [ AddCustomTool ] ===========================
+7:037  0:001  found tool \EFI\CLOVER\tools\Shell64U.efi
+7:037  0:000  Checking EFI partition Volume 1 for Clover
+7:040  0:002   Found Clover
+7:040  0:000  === [ GetEfiBootDeviceFromNvram ] ===============
+7:040  0:000   - found entry 0. 'Boot macOS from MacOS', Volume 'MacOS', DevicePath 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,BF6493D6-215D-44EF-9100-A95838CEF1C0,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A40DBBA1D0F50E4897DCE8C402AEF036)\System\Library\CoreServices\boot.efi'
+7:040  0:000  DefaultIndex=0 and MainMenu.Entries.size()=7
+7:133  0:093  MouseBirth: No mouse at ConIn, checking if any other device exists
+7:133  0:000  GUI ready
